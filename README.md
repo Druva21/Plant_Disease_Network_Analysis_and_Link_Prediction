@@ -46,5 +46,4 @@ Notes:
 - `gnn_model.py` uses PyTorch Geometric; if you don't have GPU or PyG installed, the script will skip the GNN and run heuristics only.
 - Results (metrics, plots) will be saved to the `results/` and `images/` folders.
 
-## Credits
-Project materials (report & slides) provided by the project authors. See `docs/` for report and slides included in this archive.
+
