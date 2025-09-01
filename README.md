@@ -28,12 +28,12 @@ This project demonstrates advanced data science skills by implementing multiple 
 ![Heuristics Comparison](images/heuristics_comparison.png)
 
 ### GNN Performance Curves
-![ROC Curve](images/roc_curve_gnn.png) ![Precision-Recall Curve](images/pr_curve_gnn.png)
+![ROC Curve](images/roc_curve.png) ![Precision-Recall Curve](images/pr_curve.png)
 
-### Model Evaluation
-![Confusion Matrix](images/confusion_matrix_gnn.png)
+### Model Performance Analysis
+![Model Performance](images/model_performance.png)
 
-### GNN vs Heuristics
+### GNN vs Heuristics Performance
 ![GNN vs Heuristics](images/gnn_vs_heuristics.png)
 
 ## 🏗️ Project Structure
@@ -55,12 +55,12 @@ Plant Disease Network Analysis and Link Prediction/
 │   ├── metrics.csv                   # Performance metrics
 │   └── results_summary.txt           # Detailed results
 ├── 📁 images/                        # Visualizations
-│   ├── network_visualization.png     # Network graph
-│   ├── heuristics_comparison.png     # Algorithm comparison
-│   ├── roc_curve_gnn.png            # ROC curve
-│   ├── pr_curve_gnn.png             # Precision-Recall curve
-│   ├── confusion_matrix_gnn.png     # Confusion matrix
-│   └── gnn_vs_heuristics.png        # Performance comparison
+│   ├── network_visualization.png     # Network graph visualization
+│   ├── heuristics_comparison.png     # Algorithm comparison chart
+│   ├── roc_curve.png                # ROC curve for GNN
+│   ├── pr_curve.png                 # Precision-Recall curve for GNN
+│   ├── model_performance.png        # Model performance analysis
+│   └── gnn_vs_heuristics.png        # GNN vs traditional methods comparison
 ├── requirements.txt                  # Dependencies
 └── README.md                         # This file
 ```
@@ -107,7 +107,6 @@ python scripts/gnn_model.py
 
 ## 🔬 Technical Implementation
 
-<<<<<<< HEAD
 ### Algorithms Implemented
 
 1. **Common Neighbors (CN)**
@@ -138,10 +137,11 @@ python scripts/gnn_model.py
 
 ## 📈 Key Findings
 
-1. **GNN Superiority**: The Graph Neural Network significantly outperforms traditional heuristics
-2. **Resource Allocation**: Best performing heuristic method
+1. **GNN Superiority**: The Graph Neural Network significantly outperforms traditional heuristics with a 95.92% ROC AUC score
+2. **Resource Allocation**: Best performing heuristic method among traditional approaches
 3. **Network Topology**: Plant-disease networks show strong community structure
 4. **Scalability**: Heuristic methods are faster but less accurate than GNNs
+5. **Precision-Recall Performance**: GNN achieves excellent precision-recall balance with 96.53% PR AUC
 
 ## 🛠️ Technologies Used
 
@@ -152,7 +152,6 @@ python scripts/gnn_model.py
 - **NumPy/SciPy**: Numerical computations
 - **Pandas**: Data manipulation
 - **Matplotlib/Seaborn**: Visualization
-
 
 ## 📚 References
 
@@ -167,6 +166,3 @@ This project is for educational and research purposes.
 ---
 
 **Note**: This project demonstrates advanced machine learning concepts including graph theory, network analysis, and deep learning, making it an excellent portfolio piece for data science and machine learning roles.
-=======
-
->>>>>>> ed9ceae23e4b100e168fe7c0791497f84eade864
