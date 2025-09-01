@@ -107,6 +107,7 @@ python scripts/gnn_model.py
 
 ## 🔬 Technical Implementation
 
+<<<<<<< HEAD
 ### Algorithms Implemented
 
 1. **Common Neighbors (CN)**
@@ -166,3 +167,6 @@ This project is for educational and research purposes.
 ---
 
 **Note**: This project demonstrates advanced machine learning concepts including graph theory, network analysis, and deep learning, making it an excellent portfolio piece for data science and machine learning roles.
+=======
+
+>>>>>>> ed9ceae23e4b100e168fe7c0791497f84eade864
