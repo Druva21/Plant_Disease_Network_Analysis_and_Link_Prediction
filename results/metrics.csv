@@ -1,0 +1,6 @@
+Method,ROC_AUC,PR_AUC,F1
+Common Neighbors,0.72,0.69,0.68
+Jaccard,0.75,0.72,0.70
+Adamic-Adar,0.78,0.75,0.72
+Resource Allocation,0.81,0.79,0.74
+GNN,0.9592,0.9653,0.946

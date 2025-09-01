@@ -1,1 +1,4 @@
-Dataset not included. Download 'Complete Plant Disease Database' from Kaggle and place as 'complete_plant_disease_database.csv' in this folder.
+Dataset not included.
+Download 'Complete Plant Disease Database' from Kaggle and place it here as:
+  complete_plant_disease_database.csv
+Expected columns (case-insensitive): host, antagonist (or pathogen)

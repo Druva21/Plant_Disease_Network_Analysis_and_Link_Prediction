@@ -1,20 +1,26 @@
-# Python
+# Python cache & env
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .env
+.venv/
 venv/
-.env/
-# Data
-/data/*
-!/data/README
-
-# Results and images
-/results/*
-/images/*
+ENV/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE files
+# Data (keep note only)
+/data/*
+!/data/README
+
+# Results (keep metrics)
+/results/*
+!/results/metrics.csv
+!/results/results_summary.txt
+
+# OS/IDE
+.DS_Store
 .vscode/
 .idea/

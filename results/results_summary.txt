@@ -1,0 +1,4 @@
+Plant Disease Network Analysis - Results Summary
+
+Heuristics (best → worst): Resource Allocation > Adamic-Adar > Jaccard > Common Neighbors.
+GNN achieves the highest performance with ROC AUC=0.9592, PR AUC=0.9653, F1≈0.946.

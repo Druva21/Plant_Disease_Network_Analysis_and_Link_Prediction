@@ -3,9 +3,6 @@ pandas
 networkx
 scikit-learn
 matplotlib
-seaborn
 scipy
 torch
-torchvision
-# PyTorch Geometric is optional and may require manual install depending on CUDA:
-# torch-geometric
+# torch-geometric  # optional; see README for install instructions
